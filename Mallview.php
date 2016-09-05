@@ -46,7 +46,7 @@ include("sqlconfig.php");
 
 
 <center><div class="viewshop"><br>
-<a href="shopview.php"><h2><?php $i=0; echo $shopname[$i];$s=$_SESSION['sname']=$shopname[$i]; //here echo works properly.But only second variable is passing?></h2></a>
+<a href="shopview.php"><h2><?php $i=0; echo $shopname[$i];$_SESSION['sname']=$shopname[$i]; //here echo works properly.But only second variable is passing?></h2></a>
 <a href="shopview.php"><h2><?php $i=1;echo $shopname[$i];$_SESSION['sname']=$shopname[$i]; ?></h2></a>
 <a href="usersloginpage.php"></a>
 <a href="usersloginpage.php"></a>
